@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+</style>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+    <section>
+        <header>
+            <div class="navbar bg-base-100 shadow-sm flex">
+  <div class="navbar-start">
+    <div class="flex items-center">
+        <img src="assets/logo.png" alt="" srcset="">
+    <h1 class="btn btn-ghost text-5xl">Dev<span class="font-extrabold">Board</span></h1>
+    </div>
+  </div>
+  <div  class="navbar-end">
+    <button id="ba-ck" class="btn btn-primary">Back to Desk</button>
+  </div>
+</div>
+    <div class="flex justify-center">
+        <p class="font-bold text-3xl">Blogs</p>
+    </div>
     
+    <div class="flex flex-col items-center w-100px">
+        <div class="mt-10">
+            <h4 class="font-bold font-2xl">Question-1:What are the different ways to select on element in the DOM ?</h4>
+        <p class="font-light mt-6">There are five ways to select elements: <br>
+        id,name,tag name,class name,CSS selector are used for selecting elements.
+        </p>
+        </div>
+
+        <div class="mt-10">
+            <h4 class="font-bold font-2xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h4>
+        <p class="font-light mt-6">innerHTML can take the content of html tag with content <br>
+        innerText can take the text of tag <br>
+        textContent can take the all tag with content
+        </p>
+        </div>
+
+        <div class="mt-10">
+            <h4 class="font-bold font-2xl">Question-3: What is event delegation in the DOM?</h4>
+        <p class="font-light mt-6">event delegation is a technique which is used for th event bubbling to handle the event at <br>a higher level in th DOM than  the element on which the event originated</p>
+        </div>
+
+        <div class="mt-10">
+            <h4 class="font-bold font-2xl">Question-4: What is event bubbling in the DOM?</h4>
+        <p class="font-light mt-6">When we click on the child element of DOM,then this event go to the top  of <br> the parent,grandparent</p>
+        </div>
+        <div class="mt-10">
+            <h4 class="font-bold font-2xl">Question-5: How do you create, add, and remove elements using JavaScript?</h4>
+        <p class="font-light mt-6">For creating elements i use   document.createElement() ,<br>            for adding i use appendChild()  ,  prepend()  ,  insertBefore() ,  <br>                                  for removing i use remove() or removeChild()</p>
+        </div>
+        </div>
+        
+
+        </header>
+        
+    </section>
+    <script src="utilities/in.js"></script>
 </body>
 </html>
