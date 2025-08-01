@@ -1,6 +1,6 @@
 const discover=document.getElementById("dis-cover");
 discover.addEventListener('click',function(){
-    window.location.href="http://127.0.0.1:5500/index-old.html";
+    window.location.href="http://127.0.0.1:5500/main.html";
 });
 
 

@@ -1,4 +1,4 @@
 const back=document.getElementById("ba-ck");
 back.addEventListener("click",function(){
-    window.location.href="http://127.0.0.1:5500/main.html";
+    window.location.href="http://127.0.0.1:5500/index.html";
 });
